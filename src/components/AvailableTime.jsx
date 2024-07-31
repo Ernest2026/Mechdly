@@ -1,15 +1,15 @@
-import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Heading, Image } from '@chakra-ui/react'
 import React from 'react'
 import emekaAndSonsIllustration from '../assets/images/emekaandsons-illustration.png'
 
 export default function AvailableTimeComponent() {
     return (
-        <Flex position='relative' flexDir={{md: 'row', base: 'column'}} justifyContent={{md: 'space-between'}} gap={{md: 0, base: '24px'}} alignItems='center' padding={{ lg: '100px 64px 28px 64px', md: '100px 32px 28px 32px', base: '50px 16px 28px 16px' }}>
-            <Flex flexDir='column' width={{md: '50%'}} zIndex={3}>
+        <Flex position='relative' flexDir={{ md: 'row', base: 'column' }} justifyContent={{ md: 'space-between' }} gap={{ md: 0, base: '24px' }} alignItems='center' padding={{ lg: '100px 64px 28px 64px', md: '100px 32px 28px 32px', base: '50px 16px 28px 16px' }}>
+            <Flex flexDir='column' width={{ md: '50%' }} zIndex={3}>
                 <Image src={emekaAndSonsIllustration} alt='Schedule Payment Illustration' />
             </Flex>
-            <Flex flexDir='column' alignItems={{md: 'flex-end', base: 'center'}} width={{md: '48%'}}>
-                <Heading size={{ xl: '3xl', md: '2xl', base: 'xl' }} fontWeight={500} textAlign={{md: 'right', base: 'center'}}>Let your customers know what time is available in a day!</Heading>
+            <Flex flexDir='column' alignItems={{ md: 'flex-end', base: 'center' }} width={{ md: '48%' }}>
+                <Heading size={{ xl: '3xl', md: '2xl', base: 'xl' }} fontWeight={500} textAlign={{ md: 'right', base: 'center' }}>Let your customers know what time is available in a day!</Heading>
                 <Button marginTop={{ xl: 10, base: 6 }}>Setup now</Button>
             </Flex>
 

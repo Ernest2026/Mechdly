@@ -37,9 +37,9 @@ const servicesOptions = [
 
 export default function ServicesComponent() {
   return (
-    <Box position='relative' padding={{lg: '64px', md: '64px 32px', base: '64px 16px'}}>
+    <Box position='relative' padding={{ lg: '64px', md: '64px 32px', base: '64px 16px' }}>
       <Heading size={{ xl: '2xl', md: 'xl', base: 'lg' }} fontWeight={500} marginBottom={18.5} textAlign='center'>SERVICES WE OFFER</Heading>
-      <Flex flexDir={{md: 'row', base: 'column-reverse'}} justifyContent='center' flexWrap='wrap' gap={{xl: '5%', base: '2%'}}>
+      <Flex flexDir={{ md: 'row', base: 'column-reverse' }} justifyContent='center' flexWrap='wrap' gap={{ xl: '5%', base: '2%' }}>
         {
           servicesOptions.map((service, idx) => <ServicesCardComponent key={idx} service={service} />)
         }
