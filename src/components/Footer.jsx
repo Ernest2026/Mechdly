@@ -22,21 +22,21 @@ export default function FooterComponent() {
         <Flex width={{ xl: '50%', md: '53%' }} flexDir='row' justifyContent='space-between' >
           <Flex flexDirection={{ base: 'column' }} width='32%' alignItems={{ md: 'initial', base: 'center' }}>
             <Heading fontSize={{ lg: '30px', md: '2xl' }}>Company</Heading>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>About Us</Link>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Partners & Affiliates</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>About Us</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Partners & Affiliates</Link>
           </Flex>
           <Flex flexDirection={{ base: 'column' }} width='32%' alignItems={{ md: 'initial', base: 'center' }}>
             <Heading fontSize={{ lg: '30px', md: '2xl' }}>Products</Heading>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>How it Works</Link>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Features</Link>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Pricing</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>How it Works</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Features</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Pricing</Link>
           </Flex>
           <Flex flexDirection={{ base: 'column' }} width='32%' alignItems={{ md: 'initial', base: 'center' }}>
             <Heading fontSize={{ lg: '30px', md: '2xl' }}>Support</Heading>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Contact Us</Link>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>FAQs</Link>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Privacy</Link>
-            <Link display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Terms</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Contact Us</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>FAQs</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Privacy</Link>
+            <Link href='#' display='block' textAlign={{ md: 'initial', base: 'center' }} fontSize={{ lg: 'xl', md: 'lg' }} fontWeight={500} marginTop='8px'>Terms</Link>
           </Flex>
         </Flex>
       </Flex>
@@ -47,7 +47,7 @@ export default function FooterComponent() {
           <Image src={instagram} alt="Instagram" />
           <Image src={linkedin} alt="Linkedin" />
         </Flex>
-        <Link display='block' fontSize='md' textAlign={{ md: 'initial', base: 'center' }}>&#169; 2022. FixBot Technologies Limited. All Rights Reserved.</Link>
+        <Link href='#' display='block' fontSize='md' textAlign={{ md: 'initial', base: 'center' }}>&#169; 2022. FixBot Technologies Limited. All Rights Reserved.</Link>
       </Flex>
     </Flex>
   )
