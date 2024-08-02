@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, Heading, Image, Input, InputGroup, Link } from '@chakra-ui/react'
+import { Box, Button, Divider, Flex, Heading, Image, Input, InputGroup, Link, Text } from '@chakra-ui/react'
 import React from 'react'
 import facebook from '../assets/svgs/fi_facebook.svg'
 import instagram from '../assets/svgs/fi_instagram.svg'
@@ -47,7 +47,7 @@ export default function FooterComponent() {
           <Image src={instagram} alt="Instagram" />
           <Image src={linkedin} alt="Linkedin" />
         </Flex>
-        <Link href='#' display='block' fontSize='md' textAlign={{ md: 'initial', base: 'center' }}>&#169; 2022. FixBot Technologies Limited. All Rights Reserved.</Link>
+        <Text fontSize='md' textAlign={{ md: 'initial', base: 'center' }}>&#169; 2022. FixBot Technologies Limited. All Rights Reserved.</Text>
       </Flex>
     </Flex>
   )

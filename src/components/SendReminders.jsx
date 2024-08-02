@@ -5,7 +5,7 @@ import reminderIllustration from '../assets/images/reminder-illustration.png'
 export default function SendReminderComponent() {
     return (
         <Flex position='relative' flexDir={{ md: 'row', base: 'column-reverse' }} gap={{ md: 0, base: '24px' }} justifyContent='space-between' alignItems='center' padding={{ lg: '100px 64px', md: '100px 32px', base: '50px 16px' }}>
-            <Flex flexDir='column' alignItems={{ md: 'flex-start', base: 'center' }} width={{ md: '48%' }}>
+            <Flex flexDir='column' alignItems={{ md: 'flex-start', base: 'center' }} width={{ md: '48%' }} zIndex={{md: 'initial', base: 7}}>
                 <Heading size={{ xl: '3xl', md: '2xl', base: 'xl' }} fontWeight={500} textAlign={{ md: 'initial', base: 'center' }}>Send reminders, SMS and invoices to customers.</Heading>
                 <Button marginTop={{ xl: 10, base: 6 }}>Setup now</Button>
             </Flex>
