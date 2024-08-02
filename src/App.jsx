@@ -14,7 +14,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
-      <Box maxWidth='1440px' margin='0 auto' overflowX='hidden'>
+      <Box maxWidth='1440px' margin='0 auto'>
         <HeaderComponent />
         <SchedulePaymentComponent />
         <AvailableTimeComponent />
