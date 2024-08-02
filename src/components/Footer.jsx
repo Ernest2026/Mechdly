@@ -11,11 +11,12 @@ export default function FooterComponent() {
       <Divider borderTopWidth={1} borderColor='yellow.500' />
       <Flex flexDir={{ md: 'row', base: 'column' }} gap={{ md: 0, base: '48px' }} paddingTop='48px' justifyContent='space-between'>
         <Box width={{ md: '45%' }}>
-          <Heading textAlign={{ md: 'initial', base: 'center' }} size={{ xl: '3xl', lg: '2xl', base: 'xl' }} lineHeight='86px'>Subscribe to<br /> our newsletter!</Heading>
+          <Heading display={{ md: 'block', base: 'none' }} textAlign={{ md: 'initial', base: 'center' }} size={{ xl: '3xl', lg: '2xl', base: 'xl' }} lineHeight='86px'>Subscribe to<br /> our newsletter!</Heading>
+          <Heading display={{ md: 'none' }} textAlign={{ md: 'initial', base: 'center' }} size={{ xl: '3xl', lg: '2xl', base: 'xl' }} lineHeight='86px'>Subscribe to our newsletter!</Heading>
           <InputGroup borderRadius={40} borderWidth='3px' borderColor='#BBA18F' overflow='hidden' marginTop='35px' backdropFilter='blur(21px)' bgGradient={'radial(107.17% 107.17% at 0% 0%, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%)'} >
             <Input type='email' placeholder='Email address' fontSize='xl' borderWidth='0' paddingLeft={{ md: '40px' }} paddingTop='24px' paddingBottom='24px' _placeholder={{ color: 'inherit' }} />
             {/* <InputRightElement pointerEvents='none' minWidth='100px' height='100%'> */}
-            <Button width={{md: 'auto', base: '120px'}}>Sign up</Button>
+            <Button width={{ md: 'auto', base: '120px' }}>Sign up</Button>
             {/* </InputRightElement> */}
           </InputGroup>
         </Box>
